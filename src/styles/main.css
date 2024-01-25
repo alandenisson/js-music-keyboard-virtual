@@ -1,21 +1,26 @@
 body {
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  background-color: #e3f2fd;
+  min-height: 100vh;  
+  background-color: #4b4b4b;
   color: #fff;
+  
 }
 
 .container {
   width: 780px;
-  border-radius: 20px;
+  border-radius: 10px;  
+  border: 2px solid  #03a9f4;  
   padding: 35px 40px;
-  background-color: black;
-}
+  background-color: #4b4b4b;
+  box-shadow: 0px 15px 60px #03a9f4 ;
+  }
+
 
 .container header {
-  color: #b2b2b2;
+  color: #03a9f4;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,7 +39,7 @@ header .column span {
   font-weight: 500;
   margin-right: 15px;
   font-size: 1.19rem;
-}
+ }
 
 .volume-slider input {
   accent-color: #fff;
@@ -47,14 +52,15 @@ header .column span {
   border-radius: 30px;
   background-color: #4b4b4b;
   cursor: pointer;
-  position: relative;
+  position: relative; 
+  border: 1px solid  #03a9f4; 
 }
 
 .keys-check input::before {
   content: "";
   height: 20px;
   width: 20px;
-  background-color: #8c8c8c;
+  background-color: #8c8c8c; 
   top: 50%;
   left: 0.3rem;
   border-radius: inherit;
@@ -65,7 +71,7 @@ header .column span {
 
 .keys-check input:checked::before {
   left: 2.1rem;
-  background-color: #fff;
+  background-color: #fff;  
 }
 
 .piano-keys {
